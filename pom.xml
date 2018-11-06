@@ -26,7 +26,7 @@
         <javax.servlet-api.version>4.0.0</javax.servlet-api.version>
         <junit.version>4.12</junit.version>
 
-        <druid.version>1.0.26</druid.version>
+        <!--<druid.version>1.0.26</druid.version>-->
         <druid.boot.version>1.1.0</druid.boot.version>
         <mybaties.boot.version>1.3.1</mybaties.boot.version>
         <pagehelper.boot.version>1.2.3</pagehelper.boot.version>
@@ -76,8 +76,9 @@
         <testng.version>6.14.3</testng.version>
         <selenium.version>3.0.1</selenium.version>
 
-
         <swagger.version>2.9.2</swagger.version>
+
+        <jasypt-spring-boot-starter.version>2.1.0</jasypt-spring-boot-starter.version>
     </properties>
 
     <!--maven远程仓库配置-->
@@ -131,11 +132,11 @@
                 <version>${selenium.version}</version>
             </dependency>
 
-            <dependency>
-                <groupId>com.alibaba</groupId>
-                <artifactId>druid</artifactId>
-                <version>${druid.version}</version>
-            </dependency>
+            <!--<dependency>-->
+            <!--<groupId>com.alibaba</groupId>-->
+            <!--<artifactId>druid</artifactId>-->
+            <!--<version>${druid.version}</version>-->
+            <!--</dependency>-->
 
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -341,6 +342,20 @@
                 <version>${swagger.version}</version>
             </dependency>
             <!-- swagger2 end -->
+
+            <!-- testng -->
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>${testng.version}</version>
+            </dependency>
+
+            <!-- springboot 加密 -->
+            <dependency>
+                <groupId>com.github.ulisesbocchio</groupId>
+                <artifactId>jasypt-spring-boot-starter</artifactId>
+                <version>${jasypt-spring-boot-starter.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
