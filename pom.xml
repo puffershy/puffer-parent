@@ -16,8 +16,13 @@
 
     <!-- 依赖属性管理 -->
     <properties>
-        <spring.boot.version>2.0.6.RELEASE</spring.boot.version>
-        <spring.cloud.version>Finchley.M9</spring.cloud.version>
+        <!--<spring.boot.version>2.0.6.RELEASE</spring.boot.version>-->
+        <!--<spring.cloud.version>Finchley.M9</spring.cloud.version>-->
+
+        <spring.boot.version>1.5.9.RELEASE</spring.boot.version>
+        <spring.cloud.version>Edgware.SR1</spring.cloud.version>
+
+
         <java.version>1.8</java.version>
         <java.encoding>UTF-8</java.encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -66,7 +71,7 @@
 
         <shiro.version>1.2.4</shiro.version>
         <shiro.ehcache.version>1.4.0</shiro.ehcache.version>
-        <shiro.redis.version>2.4.2.1-RELEASE</shiro.redis.version>
+        <shiro.redis.version>2.8.24</shiro.redis.version>
 
 
         <bcprov.version>1.46</bcprov.version>
@@ -74,11 +79,11 @@
         <jwt.version>3.2.0</jwt.version>
 
         <testng.version>6.14.3</testng.version>
-        <selenium.version>3.0.1</selenium.version>
+        <selenium.version>3.14.0</selenium.version>
 
         <swagger.version>2.9.2</swagger.version>
 
-        <jasypt-spring-boot-starter.version>2.1.0</jasypt-spring-boot-starter.version>
+        <jasypt-spring-boot-starter.version>2.0.0</jasypt-spring-boot-starter.version>
     </properties>
 
     <!--maven远程仓库配置-->
